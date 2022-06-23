@@ -25,11 +25,11 @@ p {
 }
 
 /* Section Colors */
-.colored {
+.light {
     background-color: #E8C07D;
 }
 
-.green {
+.dark {
     background-color: #614124;
 }
 
@@ -70,16 +70,20 @@ p {
     background-color:#E8C07D;
 }
 
-#navbar {
-    background-color: #614124;
+.nav-title {
+    color:#E8C07D;
+    font-size:3.5em;
+    padding-left:120px;
+}
+
+.logo {
+    width: 5em;
+    position:relative;
+    float:left;
 }
 
 .nav-header {
     color:#E8C07D;
-}
-
-.nav-div {
-    padding: 0px 100px;
 }
 
 /* Welcome */
@@ -121,4 +125,118 @@ p {
 .welcome-arrow {
     color:#E8C07D;
     font-size:3em;
+}
+
+/* Cards */
+
+#cards .grid {
+    padding: 100px 10%;
+}
+
+.card {
+    margin:10px auto;
+    width:90%;
+    background-color:#E8C07D;
+    border:none;
+}
+
+.card-text {
+    color:#614124;
+}
+
+.card-title {
+    color:#614124;
+}
+
+.card-image {
+    border:5px #614124 solid;
+    width:102%;
+}
+
+.card-body .btn {
+    background-color:#E8C07D;
+    border: black 2px solid;
+}
+
+.card-learn-more {
+    padding-top:10px;
+    font-weight:600;
+}
+
+/* Logos */
+
+#logos .container-fluid {
+    padding-bottom: 100px;
+}
+
+.org-sustainability {
+    padding: 80px 0 0 20%;
+    width: 100%;
+}
+
+.org-nsf {
+    padding: 20px 10%;
+    width:70%;
+}
+
+.org-cap {
+    padding: 0 20% 0 0;
+    width: 100%;
+}
+
+
+@media only screen and (max-width:992px) {
+
+    /* Navbar */
+    
+    .navbar-toggler {
+        margin:20px 0;
+        width:100%;
+    }
+    .nav-title {
+        visibility:hidden;
+        font-size:0em;
+    }
+
+    .nav-div {
+        text-align:center;
+    }
+
+    .navbar-brand {
+        margin:0;
+    }
+
+    .logo {
+        float:none;
+        margin: 0 auto;
+        width:50%;
+        padding-top:30px;
+    }
+
+    /* Title Card */
+
+    .banner-title {
+        font-size: 3em;
+    }
+
+    .title {
+        padding:20px;
+    }
+
+    .cattails {
+        bottom:0px;
+    }
+
+    /* Carousel */
+    .carousel-image {
+        width:90%;
+    }
+
+    .welcome-arrow {
+        visibility: hidden;
+    }
+
+    .welcome {
+        width:100%;
+    }
 }
