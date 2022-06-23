@@ -1,0 +1,101 @@
+body {
+    text-align:center;
+    background-color:#E8C07D
+}
+
+/* Font Families */
+
+h1, h2, h3, h4, h5, h6, p {
+    font-family: 'Montserrat', sans-serif;
+    color:#614124;
+
+}
+
+/* Headers */
+h1 {
+    font-weight:700;
+}
+
+h2,h3 {
+    font-weight: 600;
+}
+
+/* Section Colors */
+.colored {
+    background-color: #E8C07D;
+}
+
+.green {
+    background-color: #614124;
+}
+
+
+/* Section Spacing */
+
+
+/* Title Text */
+
+.title {
+    padding:0 25%;
+
+}
+
+.banner-title {
+    font-size:4em;
+    padding-top:50px;
+}
+
+.banner-subtitle {
+    font-size:4em;
+    padding-top:50px;
+    padding-bottom:50px;
+}
+
+/* Navbar */
+
+.navbar-toggler {
+    background-color:#E8C07D;
+}
+
+#navbar {
+    background-color: #614124;
+}
+
+.nav-header {
+    color:#E8C07D;
+}
+
+.nav-div {
+    padding: 0px 100px;
+}
+
+/* Welcome */
+
+.welcome {
+    padding:50px 0 50px 0;
+    text-align:center;
+    width:70%;
+}
+
+.welcome-msg {
+    color: #E8C07D;
+    padding-top:50px;
+}
+
+.welcome-bio {
+    color: #E8C07D;
+    padding: 30px 0;
+    font-size: 1.2em;
+    width:80%;
+    margin: 0 auto;
+}
+
+.carousel-image {
+    width:65%;
+    border: 5px solid #E8C07D;
+}
+
+.welcome-arrow {
+    color:#E8C07D;
+    font-size:3em;
+}
